@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body oncontextmenu="return false" onkeydown="return false">
+    <div class="container">
+        <div class="logo-container">
+            <a href="https://github.com/TraxDinosaur" target="_blank">
+                <img id="github-logo" src="https://pics.craiyon.com/2023-06-24/5a6266d53c9142dda0b85a389b3f5056.webp" alt="GitHub Logo">
+            </a>
+            <a href="#" id="profile-link">
+                <img id="profile-logo" src="https://i.ibb.co/DKfW8Gr/8fa7c3248e1c74ee8ec88e4d881b223f.jpg" alt="Profile Logo">
+            </a>
+        </div>
+    </div>
+    <div id="contact-form-container" class="contact-form-container">
+        <div class="contact-form glassmorphism">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <div id="message-container" class="message-container"></div>
+        </div>
+    </div>
+    <div id="copyright-container">
+        <p id="copyright">
+            &copy; 2024 TraxDinosaur. All rights reserved.
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
