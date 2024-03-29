@@ -19,8 +19,8 @@
         const message = document.getElementById('message').value;
 
         
-        const botToken = process.env.trax;
-        const chatId = process.env.rexs;
+        const botToken = process.env.TRAX;
+        const chatId = process.env.REXS;
         const text = `Name: ${name}\nEmail: ${email}\nMessage: ${message}`;
 
         fetch(`https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(text)}`)
