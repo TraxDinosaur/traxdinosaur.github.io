@@ -6,9 +6,9 @@ Welcome to the TraxDinosaur GitHub repository! Here you'll find information abou
 
 Feel free to reach out to me using the contact form below:
 
-[![Contact Me](https://i.ibb.co/DKfW8Gr/8fa7c3248e1c74ee8ec88e4d881b223f.jpg)](https://github.com/TraxDinosaur)
+[![Contact Me](https://media.tenor.com/8E7-GkyjKY0AAAAi/github-sticker.gif)](https://traxdinosaur.github.io/)
 
-### Contact Form
+### Contact Me
 
 If you prefer, you can use the form on my website to send me a message directly:
 
