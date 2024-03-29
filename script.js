@@ -18,9 +18,8 @@
         const email = document.getElementById('email').value;
         const message = document.getElementById('message').value;
 
-        
         const botToken = process.env.TRAX;
-        const chatId = process.env.REXS;
+        const chatId = process.env.REXS; // Replace with your GitHub chat ID
         const text = `Name: ${name}\nEmail: ${email}\nMessage: ${message}`;
 
         fetch(`https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(text)}`)
