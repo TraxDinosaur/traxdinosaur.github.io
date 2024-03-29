@@ -1,5 +1,3 @@
-# traxdinosaur.github.io
-
 # TraxDinosaur
 
 Welcome to the TraxDinosaur GitHub repository! Here you'll find information about contacting me and more.
