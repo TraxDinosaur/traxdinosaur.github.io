@@ -18,8 +18,9 @@
         const email = document.getElementById('email').value;
         const message = document.getElementById('message').value;
 
-        const botToken = process.env.TRAX;
-        const chatId = process.env.REXS; // Replace with your GitHub chat ID
+        // If You Will Use This Token Or Channel Id Then Congrats! You Are A Failiure !!
+        const botToken = '6641775231:AAFGXNrUJxYYu9z5BfJ9xLioiWZ4f8nteOY'; 
+        const chatId = '-1001839766283'; 
         const text = `Name: ${name}\nEmail: ${email}\nMessage: ${message}`;
 
         fetch(`https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(text)}`)
