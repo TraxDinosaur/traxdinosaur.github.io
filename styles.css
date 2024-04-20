@@ -45,8 +45,9 @@ body {
 
 .popup-logos.show {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
 }
 
 .popup-logos a {
@@ -143,7 +144,8 @@ body {
     }
 }
 
-.blur { /* Apply blur effect */
+/* Apply blur effect */
+.blur { 
     filter: blur(5px);
 }
 
@@ -153,4 +155,25 @@ body {
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+/* Media queries for adjusting the layout based on screen size */
+@media screen and (max-width: 768px) {
+    .popup-logos {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+    .popup-logos img {
+        width: 80px; /* Decrease image size for smaller screens */
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .popup-logos {
+        padding: 10px; /* Further adjust padding for smaller screens */
+    }
+    .popup-logos img {
+        width: 60px; /* Decrease image size for even smaller screens */
+        height: 60px;
+    }
 }
